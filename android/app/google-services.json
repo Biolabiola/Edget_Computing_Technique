@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "427977476827",
+    "project_id": "abiola-cloud-computing",
+    "storage_bucket": "abiola-cloud-computing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427977476827:android:2baf8058fe100f72735afe",
+        "android_client_info": {
+          "package_name": "com.abiola.lucas.edge_cloud_computing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427977476827-6rotqlgiipkiv04rn5ggnqa7ntqlbrlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVPDQW9Dmdz3lt2QI3yxUt3stsKQ5fb4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427977476827-6rotqlgiipkiv04rn5ggnqa7ntqlbrlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
