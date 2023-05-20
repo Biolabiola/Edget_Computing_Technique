@@ -277,6 +277,7 @@ class _AddDataState extends State<AddData> {
         setState(() {
           _image.clear();
         });
+        //condition for stp watch count
         if(stopwatch.elapsedMilliseconds < 4000){
           ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text("Dynamic Offloading  to Cloud Storage @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
         }else if(stopwatch.elapsedMilliseconds <= 4000){
@@ -296,6 +297,7 @@ class _AddDataState extends State<AddData> {
             'timestamp': FieldValue.serverTimestamp(),
             'duration': durationInMilliseconds,
             'imageUrl': value
+
           };
           if (kDebugMode) {
             print("Time Taking to Offload Task $durationInMilliseconds");
