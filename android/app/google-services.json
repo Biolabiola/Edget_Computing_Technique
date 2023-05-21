@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "427977476827",
-    "project_id": "abiola-cloud-computing",
-    "storage_bucket": "abiola-cloud-computing.appspot.com"
+    "project_number": "380258960084",
+    "project_id": "abiola-cloud-computing-57f3e",
+    "storage_bucket": "abiola-cloud-computing-57f3e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:427977476827:android:2baf8058fe100f72735afe",
+        "mobilesdk_app_id": "1:380258960084:android:96060a79c04e9439d3b141",
         "android_client_info": {
           "package_name": "com.abiola.lucas.edge_cloud_computing"
         }
       },
       "oauth_client": [
         {
-          "client_id": "427977476827-6rotqlgiipkiv04rn5ggnqa7ntqlbrlj.apps.googleusercontent.com",
+          "client_id": "380258960084-92082gputpdhfrp77775gh2lgonfo0nu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAVPDQW9Dmdz3lt2QI3yxUt3stsKQ5fb4I"
+          "current_key": "AIzaSyAM-gjhmbcJIklPmf7nnKfQzBtBZPMfgFo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "427977476827-6rotqlgiipkiv04rn5ggnqa7ntqlbrlj.apps.googleusercontent.com",
+              "client_id": "380258960084-92082gputpdhfrp77775gh2lgonfo0nu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

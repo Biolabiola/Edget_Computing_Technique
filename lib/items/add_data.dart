@@ -280,9 +280,9 @@ class _AddDataState extends State<AddData> {
         //condition for stp watch count
         if(stopwatch.elapsedMilliseconds < 4000){
           ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text("Dynamic Offloading  to Cloud Storage @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
-        }else if(stopwatch.elapsedMilliseconds <= 4000){
+        }else if(stopwatch.elapsedMilliseconds > 4000){
           ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text("Hybrid Offloading to Cloud Storage @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
-        }else if(stopwatch.elapsedMilliseconds >= 10000) {
+        }else if(stopwatch.elapsedMilliseconds > 10000) {
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("static Offloading to Cloud Storage @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
         }
         print("Time Taking to Offload Image to Storage ${stopwatch.elapsedMilliseconds}");
@@ -312,9 +312,9 @@ class _AddDataState extends State<AddData> {
             });
             if(stopwatch.elapsedMilliseconds < 4000){
               ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text("Dynamic Offloading to Cloud Firebase @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
-            }else if(stopwatch.elapsedMilliseconds <= 4000){
+            }else if(stopwatch.elapsedMilliseconds > 4000){
               ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text("Hybrid Offloading to Cloud Firebase @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
-            }else if(stopwatch.elapsedMilliseconds >= 10000) {
+            }else if(stopwatch.elapsedMilliseconds > 10000) {
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("static Offloading to Cloud Firebase @ ${stopwatch.elapsedMilliseconds} Milliseconds")));
             }
             // Do some work.
